@@ -15,7 +15,7 @@ public class NetworkManager: NetworkClient {
     private var loggingEnabled: Bool
     private var timeout: Double
     
-    public func buildDefault(session: URLSession = .shared,
+    public static func buildDefault(session: URLSession = .shared,
                              customDecoder: JSONDecoder = JSONDecoder(),
                              loggingEnabled: Bool = false,
                              timeout: Double = 10) -> Self {
@@ -102,7 +102,7 @@ public class NetworkManager: NetworkClient {
             }
         } catch {
             handleLogging(error: error)
-            return .failure(NetworkError.noConnection)
+            return .failure(error as? NetworkError ?? NetworkError.noConnection)
         }
     }
     
@@ -123,13 +123,17 @@ public class NetworkManager: NetworkClient {
         var urlComponents = URLComponents()
         urlComponents.scheme = endpoint.scheme
         urlComponents.host =  endpoint.baseURL
+        urlComponents.port = endpoint.port
         urlComponents.path = endpoint.path
         var queryItems = [URLQueryItem]()
-        endpoint.queryItems?.forEach({ (key, value) in
-            let queryItem = URLQueryItem(name: key,
-                                         value: "\(value)".addingPercentEncoding(withAllowedCharacters: .urlHostAllowed))
-            queryItems.append(queryItem)
-        })
+        if let queryParameters = endpoint.queryItems, !queryParameters.isEmpty {
+            queryParameters.forEach({ (key, value) in
+                let queryItem = URLQueryItem(name: key,
+                                             value: "\(value)".addingPercentEncoding(withAllowedCharacters: .urlHostAllowed))
+                queryItems.append(queryItem)
+            })
+        }
+        
         urlComponents.queryItems = queryItems
         guard let url = urlComponents.url else {
             throw NetworkError.badURL

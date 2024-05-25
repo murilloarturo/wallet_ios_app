@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "72EB4B7B-35B8-48F7-A39F-36F9EF906034",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:WalletApp.xcodeproj",
+      "identifier" : "69B6874F2C01D62400C28D79",
+      "name" : "WalletApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:WalletApp.xcodeproj",
+        "identifier" : "69B687612C01D62600C28D79",
+        "name" : "WalletAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:WalletApp.xcodeproj",
+        "identifier" : "69B6876B2C01D62600C28D79",
+        "name" : "WalletAppUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Network",
+        "identifier" : "NetworkTests",
+        "name" : "NetworkTests"
+      }
+    }
+  ],
+  "version" : 1
+}

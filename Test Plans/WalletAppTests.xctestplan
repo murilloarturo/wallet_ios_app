@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "8989355F-90BF-4A58-9AF7-53681FAB6B3B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:WalletApp.xcodeproj",
+        "identifier" : "69B687612C01D62600C28D79",
+        "name" : "WalletAppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Network",
+        "identifier" : "NetworkTests",
+        "name" : "NetworkTests"
+      }
+    }
+  ],
+  "version" : 1
+}

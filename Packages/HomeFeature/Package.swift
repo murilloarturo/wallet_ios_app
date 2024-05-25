@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "Network",
+    name: "HomeFeature",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "Network",
-            targets: ["Network"]),
+            name: "HomeFeature",
+            targets: ["HomeFeature"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Quick/Quick.git", from: "7.0.0"),
@@ -19,9 +19,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Network"),
+            name: "HomeFeature"),
         .testTarget(
-            name: "NetworkTests",
-            dependencies: ["Network", "Quick", "Nimble"]),
+            name: "HomeFeatureTests",
+            dependencies: ["HomeFeature"]),
     ]
 )

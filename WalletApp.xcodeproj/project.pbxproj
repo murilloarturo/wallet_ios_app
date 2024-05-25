@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69B687542C01D62400C28D79 /* WalletAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B687532C01D62400C28D79 /* WalletAppApp.swift */; };
-		69B687562C01D62400C28D79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B687552C01D62400C28D79 /* ContentView.swift */; };
-		69B687582C01D62400C28D79 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B687572C01D62400C28D79 /* Item.swift */; };
+		690EF1322C02582000FB0CF2 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 690EF1312C02582000FB0CF2 /* Network */; };
+		690EF1392C025C9300FB0CF2 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 690EF1382C025C9300FB0CF2 /* Nimble */; };
+		690EF13B2C025C9600FB0CF2 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 690EF13A2C025C9600FB0CF2 /* Quick */; };
+		690EF1A52C02639E00FB0CF2 /* WalletApp.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 690EF1A42C02639E00FB0CF2 /* WalletApp.xctestplan */; };
+		690EF1AB2C0267E600FB0CF2 /* HomeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 690EF1AA2C0267E600FB0CF2 /* HomeFeature */; };
+		690EF1B32C0275B200FB0CF2 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 690EF1B22C0275B200FB0CF2 /* DesignSystem */; };
+		690EF1B62C0275C400FB0CF2 /* Localization in Frameworks */ = {isa = PBXBuildFile; productRef = 690EF1B52C0275C400FB0CF2 /* Localization */; };
+		690EF1BA2C02761800FB0CF2 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 690EF1B92C02761800FB0CF2 /* Common */; };
+		69B687542C01D62400C28D79 /* WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B687532C01D62400C28D79 /* WalletApp.swift */; };
 		69B6875A2C01D62600C28D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B687592C01D62600C28D79 /* Assets.xcassets */; };
 		69B6875D2C01D62600C28D79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B6875C2C01D62600C28D79 /* Preview Assets.xcassets */; };
 		69B687672C01D62600C28D79 /* WalletAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B687662C01D62600C28D79 /* WalletAppTests.swift */; };
@@ -36,10 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690EF12F2C02571D00FB0CF2 /* Network */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Network; sourceTree = "<group>"; };
+		690EF1A32C02632200FB0CF2 /* WalletAppTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = WalletAppTests.xctestplan; sourceTree = "<group>"; };
+		690EF1A42C02639E00FB0CF2 /* WalletApp.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WalletApp.xctestplan; sourceTree = "<group>"; };
+		690EF1A82C02670A00FB0CF2 /* HomeFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HomeFeature; sourceTree = "<group>"; };
+		690EF1AF2C02759A00FB0CF2 /* Localization */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Localization; sourceTree = "<group>"; };
+		690EF1B02C02759A00FB0CF2 /* DesignSystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DesignSystem; sourceTree = "<group>"; };
+		690EF1B72C02760D00FB0CF2 /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Common; sourceTree = "<group>"; };
 		69B687502C01D62400C28D79 /* WalletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69B687532C01D62400C28D79 /* WalletAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAppApp.swift; sourceTree = "<group>"; };
-		69B687552C01D62400C28D79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		69B687572C01D62400C28D79 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		69B687532C01D62400C28D79 /* WalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletApp.swift; sourceTree = "<group>"; };
 		69B687592C01D62600C28D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69B6875C2C01D62600C28D79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69B687622C01D62600C28D79 /* WalletAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +66,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				69B687812C01D7D500C28D79 /* Network in Frameworks */,
+				690EF1B62C0275C400FB0CF2 /* Localization in Frameworks */,
+				690EF1322C02582000FB0CF2 /* Network in Frameworks */,
+				690EF1AB2C0267E600FB0CF2 /* HomeFeature in Frameworks */,
+				690EF1B32C0275B200FB0CF2 /* DesignSystem in Frameworks */,
+				690EF1BA2C02761800FB0CF2 /* Common in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690EF13B2C025C9600FB0CF2 /* Quick in Frameworks */,
+				690EF1392C025C9300FB0CF2 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,13 +93,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690EF12E2C02571D00FB0CF2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				690EF1B72C02760D00FB0CF2 /* Common */,
+				690EF1B02C02759A00FB0CF2 /* DesignSystem */,
+				690EF1AF2C02759A00FB0CF2 /* Localization */,
+				690EF1A82C02670A00FB0CF2 /* HomeFeature */,
+				690EF12F2C02571D00FB0CF2 /* Network */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		690EF1372C025C9300FB0CF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		690EF1A72C0264C400FB0CF2 /* Test Plans */ = {
+			isa = PBXGroup;
+			children = (
+				690EF1A42C02639E00FB0CF2 /* WalletApp.xctestplan */,
+				690EF1A32C02632200FB0CF2 /* WalletAppTests.xctestplan */,
+			);
+			path = "Test Plans";
+			sourceTree = "<group>";
+		};
+		690EF1AC2C026D4200FB0CF2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				690EF1AE2C026D7200FB0CF2 /* Domain */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		690EF1AE2C026D7200FB0CF2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		69B687472C01D62400C28D79 = {
 			isa = PBXGroup;
 			children = (
 				69B687522C01D62400C28D79 /* WalletApp */,
 				69B687652C01D62600C28D79 /* WalletAppTests */,
 				69B6876F2C01D62600C28D79 /* WalletAppUITests */,
+				690EF1A72C0264C400FB0CF2 /* Test Plans */,
+				690EF12E2C02571D00FB0CF2 /* Packages */,
 				69B687512C01D62400C28D79 /* Products */,
+				690EF1372C025C9300FB0CF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,9 +162,8 @@
 		69B687522C01D62400C28D79 /* WalletApp */ = {
 			isa = PBXGroup;
 			children = (
-				69B687532C01D62400C28D79 /* WalletAppApp.swift */,
-				69B687552C01D62400C28D79 /* ContentView.swift */,
-				69B687572C01D62400C28D79 /* Item.swift */,
+				69B687532C01D62400C28D79 /* WalletApp.swift */,
+				690EF1AC2C026D4200FB0CF2 /* App */,
 				69B687592C01D62600C28D79 /* Assets.xcassets */,
 				69B6875B2C01D62600C28D79 /* Preview Content */,
 			);
@@ -150,6 +213,11 @@
 			name = WalletApp;
 			packageProductDependencies = (
 				69B687802C01D7D500C28D79 /* Network */,
+				690EF1312C02582000FB0CF2 /* Network */,
+				690EF1AA2C0267E600FB0CF2 /* HomeFeature */,
+				690EF1B22C0275B200FB0CF2 /* DesignSystem */,
+				690EF1B52C0275C400FB0CF2 /* Localization */,
+				690EF1B92C02761800FB0CF2 /* Common */,
 			);
 			productName = WalletApp;
 			productReference = 69B687502C01D62400C28D79 /* WalletApp.app */;
@@ -169,6 +237,10 @@
 				69B687642C01D62600C28D79 /* PBXTargetDependency */,
 			);
 			name = WalletAppTests;
+			packageProductDependencies = (
+				690EF1382C025C9300FB0CF2 /* Nimble */,
+				690EF13A2C025C9600FB0CF2 /* Quick */,
+			);
 			productName = WalletAppTests;
 			productReference = 69B687622C01D62600C28D79 /* WalletAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -224,7 +296,13 @@
 			);
 			mainGroup = 69B687472C01D62400C28D79;
 			packageReferences = (
-				69B6877F2C01D7D500C28D79 /* XCLocalSwiftPackageReference "Packages/Network" */,
+				690EF1302C02582000FB0CF2 /* XCLocalSwiftPackageReference "Packages/Network" */,
+				690EF1332C025C1300FB0CF2 /* XCRemoteSwiftPackageReference "Nimble" */,
+				690EF1362C025C4500FB0CF2 /* XCRemoteSwiftPackageReference "Quick" */,
+				690EF1A92C0267E600FB0CF2 /* XCLocalSwiftPackageReference "Packages/HomeFeature" */,
+				690EF1B12C0275B200FB0CF2 /* XCLocalSwiftPackageReference "Packages/DesignSystem" */,
+				690EF1B42C0275C400FB0CF2 /* XCLocalSwiftPackageReference "Packages/Localization" */,
+				690EF1B82C02761800FB0CF2 /* XCLocalSwiftPackageReference "Packages/Common" */,
 			);
 			productRefGroup = 69B687512C01D62400C28D79 /* Products */;
 			projectDirPath = "";
@@ -244,6 +322,7 @@
 			files = (
 				69B6875D2C01D62600C28D79 /* Preview Assets.xcassets in Resources */,
 				69B6875A2C01D62600C28D79 /* Assets.xcassets in Resources */,
+				690EF1A52C02639E00FB0CF2 /* WalletApp.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B687562C01D62400C28D79 /* ContentView.swift in Sources */,
-				69B687582C01D62400C28D79 /* Item.swift in Sources */,
-				69B687542C01D62400C28D79 /* WalletAppApp.swift in Sources */,
+				69B687542C01D62400C28D79 /* WalletApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -434,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalletApp/Preview Content\"";
+				DEVELOPMENT_TEAM = B3SB5YQVD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Wallet App";
@@ -442,7 +520,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WalletApp/Preview Content\"";
+				DEVELOPMENT_TEAM = B3SB5YQVD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Wallet App";
@@ -475,7 +554,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,6 +578,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3SB5YQVD6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -518,6 +598,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3SB5YQVD6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -537,6 +618,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AMMP.WalletAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +636,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AMMP.WalletAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -606,13 +689,78 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		69B6877F2C01D7D500C28D79 /* XCLocalSwiftPackageReference "Packages/Network" */ = {
+		690EF1302C02582000FB0CF2 /* XCLocalSwiftPackageReference "Packages/Network" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Network;
 		};
+		690EF1A92C0267E600FB0CF2 /* XCLocalSwiftPackageReference "Packages/HomeFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/HomeFeature;
+		};
+		690EF1B12C0275B200FB0CF2 /* XCLocalSwiftPackageReference "Packages/DesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DesignSystem;
+		};
+		690EF1B42C0275C400FB0CF2 /* XCLocalSwiftPackageReference "Packages/Localization" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Localization;
+		};
+		690EF1B82C02761800FB0CF2 /* XCLocalSwiftPackageReference "Packages/Common" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Common;
+		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		690EF1332C025C1300FB0CF2 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = exactVersion;
+				version = 12.3.0;
+			};
+		};
+		690EF1362C025C4500FB0CF2 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		690EF1312C02582000FB0CF2 /* Network */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Network;
+		};
+		690EF1382C025C9300FB0CF2 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 690EF1332C025C1300FB0CF2 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		690EF13A2C025C9600FB0CF2 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 690EF1362C025C4500FB0CF2 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		690EF1AA2C0267E600FB0CF2 /* HomeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeFeature;
+		};
+		690EF1B22C0275B200FB0CF2 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		690EF1B52C0275C400FB0CF2 /* Localization */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Localization;
+		};
+		690EF1B92C02761800FB0CF2 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
 		69B687802C01D7D500C28D79 /* Network */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Network;
