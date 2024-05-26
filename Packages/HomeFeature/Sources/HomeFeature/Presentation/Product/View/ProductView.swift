@@ -12,7 +12,3 @@ struct ProductView: View {
         Text("Hello, Product!")
     }
 }
-
-#Preview {
-    ProductView()
-}

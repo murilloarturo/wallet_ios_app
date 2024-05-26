@@ -1,0 +1,15 @@
+xcassets:
+  - inputs: Sources/DesignSystem/Resources/Assets.xcassets
+    outputs:
+      - templateName: swift5
+        output: Sources/DesignSystem/Generated/AssetType.swift
+        params:
+          enumName: AssetType
+          publicAccess: true
+  - inputs: Sources/DesignSystem/Resources/Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: Sources/DesignSystem/Generated/ColorType.swift
+        params:
+          enumName: ColorType
+          publicAccess: true

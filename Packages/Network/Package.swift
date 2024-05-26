@@ -19,7 +19,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Network"),
+            name: "Network"
+        ),
         .testTarget(
             name: "NetworkTests",
             dependencies: ["Network", "Quick", "Nimble"]),

@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Arturo Murillo on 25/5/24.
+  
+*/
+
+"home_title" = "Welcome";
+"wallet_tab" = "Home";
+"products_tab" = "Products";
+"your_currencies" = "Your currencies";
+"view_all" = "View all";
+"coming_soon" = "Coming soon";
+"work_in_progress" = "We are currently working in more features to offer the best experience";

@@ -12,7 +12,7 @@ import HomeFeature
 struct WalletApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            HomeView.buildDefault()
         }
     }
 }
