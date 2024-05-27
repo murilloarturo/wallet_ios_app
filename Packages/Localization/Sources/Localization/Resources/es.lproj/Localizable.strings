@@ -11,5 +11,17 @@
 "products_tab" = "Productos";
 "your_currencies" = "Tus divisas";
 "view_all" = "Ver todas";
+"view_less" = "Ver menos";
 "coming_soon" = "Próximamente";
 "work_in_progress" = "Actualmente estamos trabajando en más funciones para ofrecer la mejor experiencia.";
+"usd_currency" = "Dólar estadounidense";
+"eur_currency" = "Euro";
+"gbp_currency" = "Libra esterlina";
+"vef_currency" = "Bolívares débiles";
+"cop_currency" = "Pesos colombianos";
+"krw_currency" = "Won surcoreano";
+"jpy_currency" = "Yen japonés";
+"loading" = "Espera un momento porfavor...";
+"loading_subtitle" = "Estamos descargando tu información.";
+"generic_error" = "Ups... algo muy raro paso.";
+"generic_error_subtitle" = "Por favor intenta de nuevo más tarde.";

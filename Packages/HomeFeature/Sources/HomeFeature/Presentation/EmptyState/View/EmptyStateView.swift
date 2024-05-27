@@ -8,21 +8,20 @@
 import SwiftUI
 import DesignSystem
 
-struct ProductsEmptyStateView: View {
-    @State var viewModel: EmptyStateViewModel
+struct EmptyStateView: View {
+    let viewModel: EmptyStateViewModelPresentation
     
-    @MainActor public static func buildDefault() -> Self {
-        .init(viewModel: EmptyStateViewModel.buildDefault())
-    }
-    
-    init(viewModel: EmptyStateViewModel) {
-        self.viewModel = viewModel
+    enum Constants {
+        static let verticalSpacing: CGFloat = 10
     }
     
     var body: some View {
-        VStack(spacing: 10) {
+        VStack(spacing: Constants.verticalSpacing) {
             Spacer()
             viewModel.backgroundImage.swiftUIImage
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 180)
                 .padding(.bottom)
             
             Text(viewModel.title)
@@ -35,7 +34,6 @@ struct ProductsEmptyStateView: View {
                 .font(FontType.body.font)
                 .foregroundColor(ColorType.gray.swiftUIColor)
             
-            Spacer()
             Spacer()
         }
         .padding()

@@ -11,5 +11,17 @@
 "products_tab" = "Products";
 "your_currencies" = "Your currencies";
 "view_all" = "View all";
+"view_less" = "View less";
 "coming_soon" = "Coming soon";
 "work_in_progress" = "We are currently working in more features to offer the best experience";
+"usd_currency" = "United States Dollar";
+"eur_currency" = "Euro";
+"gbp_currency" = "Pound sterling";
+"vef_currency" = "Venezuelan Bolívar";
+"cop_currency" = "Colombian peso";
+"krw_currency" = "South Korean won";
+"jpy_currency" = "Japanese Yen";
+"loading" = "Please wait a moment...";
+"loading_subtitle" = "We are downloading all your wallets";
+"generic_error" = "Ooops... something weird happen.";
+"generic_error_subtitle" = "Please try again later.";

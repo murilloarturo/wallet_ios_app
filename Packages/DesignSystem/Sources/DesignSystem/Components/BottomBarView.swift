@@ -44,11 +44,11 @@ public struct BottomBarView: View {
                 
                 if index < items.count - 1 {
                     Spacer()
-                    Spacer()
                 }
             }
             Spacer()
         }
+        .padding(.bottom)
         .background(ColorType.cardBackground.swiftUIColor)
         .cornerRadius(10)
     }

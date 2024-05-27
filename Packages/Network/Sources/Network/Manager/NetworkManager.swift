@@ -132,9 +132,8 @@ public class NetworkManager: NetworkClient {
                                              value: "\(value)".addingPercentEncoding(withAllowedCharacters: .urlHostAllowed))
                 queryItems.append(queryItem)
             })
+            urlComponents.queryItems = queryItems
         }
-        
-        urlComponents.queryItems = queryItems
         guard let url = urlComponents.url else {
             throw NetworkError.badURL
         }
