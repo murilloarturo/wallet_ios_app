@@ -85,3 +85,4 @@ Follow these instructions to set up and run the project on your local machine fo
   - **Obfuscate Amount of Wallets**: Add an option in settings to obfuscate the amounts displayed in the wallets.
   - **Change Dark Mode**: Allow users to toggle dark mode from within the app's settings.
   - **Change Language**: Implement language selection in the settings to support multiple languages.
+- **Snapshot Testing**
