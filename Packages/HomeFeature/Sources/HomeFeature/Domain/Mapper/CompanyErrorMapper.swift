@@ -13,9 +13,9 @@ struct CompanyErrorMapper: Mapping {
     
     func map(_ input: Error) -> CompanyError {
         if let networkError = input as? NetworkError {
-            return networkError == .noConnection ? .noConnection : .default
+            return networkError == .noConnection ? .noConnection : .generic
         } else {
-            return .default
+            return .generic
         }
     }
 }

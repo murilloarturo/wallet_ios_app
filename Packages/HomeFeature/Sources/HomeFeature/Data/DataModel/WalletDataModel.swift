@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WalletDataModel: Decodable {
+struct WalletDataModel: Decodable {
     let accountId: String
     let iconURL: String
     let amount: AmountDataModel

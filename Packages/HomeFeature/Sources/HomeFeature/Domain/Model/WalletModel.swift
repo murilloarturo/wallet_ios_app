@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct WalletModel {
-    struct Amount {
+struct WalletModel: Equatable {
+    struct Amount: Equatable {
         let amount: Double
     }
     

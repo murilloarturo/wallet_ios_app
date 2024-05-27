@@ -7,5 +7,5 @@
 
 enum CompanyError: Error, Equatable {
     case noConnection
-    case `default`
+    case generic
 }

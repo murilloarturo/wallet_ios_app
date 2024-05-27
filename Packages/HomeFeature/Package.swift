@@ -18,15 +18,16 @@ let package = Package(
         .package(url: "https://github.com/Quick/Nimble.git", from: "12.0.0"),
         .package(path: "../Localization"),
         .package(path: "../DesignSystem"),
-        .package(path: "../Common")
+        .package(path: "../Common"),
+        .package(path: "../Network")
     ],
     targets: [
         .target(
             name: "HomeFeature",
-            dependencies: ["Localization", "DesignSystem", "Common"]
+            dependencies: ["Localization", "DesignSystem", "Common", "Network"]
         ),
         .testTarget(
             name: "HomeFeatureTests",
-            dependencies: ["HomeFeature", "Quick", "Nimble"]),
+            dependencies: ["HomeFeature", "Quick", "Nimble", "Network", "DesignSystem"]),
     ]
 )

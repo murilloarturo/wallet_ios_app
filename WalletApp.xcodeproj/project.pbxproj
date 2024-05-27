@@ -115,15 +115,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		690EF1A72C0264C400FB0CF2 /* Test Plans */ = {
-			isa = PBXGroup;
-			children = (
-				690EF1A42C02639E00FB0CF2 /* WalletApp.xctestplan */,
-				690EF1A32C02632200FB0CF2 /* WalletAppTests.xctestplan */,
-			);
-			path = "Test Plans";
-			sourceTree = "<group>";
-		};
 		690EF1AC2C026D4200FB0CF2 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,13 +139,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		690EF1C02C05149000FB0CF2 /* Test Plans */ = {
+			isa = PBXGroup;
+			children = (
+				690EF1A42C02639E00FB0CF2 /* WalletApp.xctestplan */,
+				690EF1A32C02632200FB0CF2 /* WalletAppTests.xctestplan */,
+			);
+			name = "Test Plans";
+			sourceTree = "<group>";
+		};
 		69B687472C01D62400C28D79 = {
 			isa = PBXGroup;
 			children = (
 				69B687522C01D62400C28D79 /* WalletApp */,
 				69B687652C01D62600C28D79 /* WalletAppTests */,
 				69B6876F2C01D62600C28D79 /* WalletAppUITests */,
-				690EF1A72C0264C400FB0CF2 /* Test Plans */,
+				690EF1C02C05149000FB0CF2 /* Test Plans */,
 				690EF12E2C02571D00FB0CF2 /* Packages */,
 				69B687512C01D62400C28D79 /* Products */,
 				690EF1372C025C9300FB0CF2 /* Frameworks */,

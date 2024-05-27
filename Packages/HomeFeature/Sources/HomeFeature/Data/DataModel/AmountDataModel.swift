@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AmountDataModel: Decodable {
+struct AmountDataModel: Decodable {
     let amount: Double
     let currency: String
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CompanyModel {
+struct CompanyModel: Equatable {
     let name: String
     let wallets: [WalletModel]
 }

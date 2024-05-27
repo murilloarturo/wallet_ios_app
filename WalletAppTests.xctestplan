@@ -26,6 +26,27 @@
         "identifier" : "NetworkTests",
         "name" : "NetworkTests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Common",
+        "identifier" : "CommonTests",
+        "name" : "CommonTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/HomeFeature",
+        "identifier" : "HomeFeatureTests",
+        "name" : "HomeFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Localization",
+        "identifier" : "LocalizationTests",
+        "name" : "LocalizationTests"
+      }
     }
   ],
   "version" : 1
